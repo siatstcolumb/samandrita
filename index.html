@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<script language="JavaScript">
+<!--
+    function MM_findObj(n, d) { //v3.0
+        var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+            d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document); return x;
+    }
+    function MM_swapImage() { //v3.0
+        var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+            if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+    function MM_swapImgRestore() { //v3.0
+        var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+
+    function MM_preloadImages() { //v3.0
+        var d = document; if (d.images) {
+            if (!d.MM_p) d.MM_p = new Array();
+            var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+        }
+    }
+    function hidem(e) {
+        var rightclick;
+        if (!e) var e = window.event;
+        if (e.which) rightclick = (e.which == 3);
+        else if (e.button) rightclick = (e.button == 2);
+        if (rightclick == true) {
+            e.cancelBubble = true;
+            if (e.stopPropagation) e.stopPropagation();
+            for (i = 0; document.images.length - 1; i++) document.images[i].style.visibility = 'hidden';
+        }
+    }
+    function showem(e) {
+        var rightclick;
+        if (!e) var e = window.event;
+        if (e.which) rightclick = (e.which == 3);
+        else if (e.button) rightclick = (e.button == 2);
+        if (rightclick == true) {
+            e.cancelBubble = true;
+            if (e.stopPropagation) e.stopPropagation();
+            for (i = 0; document.images.length - 1; i++) document.images[i].style.visibility = 'visible';
+        }
+    }
+    document.onmousedown = hidem;
+    document.onmouseup = showem;
+    document.oncontextmenu = new Function("return false") 
+//-->
+</script>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Sam & Rita's home page</title>
+    <style type="text/css">
+        body
+        {
+            background-color: #2B2A29;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+        .headscrap
+        {
+            margin-left: 50px;
+            margin-top: 40px;
+            clear: right;
+        }
+        #mainlayer
+        {
+            padding: 0px;
+            width: 1000px;
+            height: 700px;
+            z-index: 1;
+            background-image: url('images/table989.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: auto;
+        }
+        #picstrip1
+        {
+            float: left;
+            margin-left: 76px;
+            margin-top: 28px;
+            margin-right: 0;
+            padding: 0;
+            width: 135px;
+        }
+        #badge
+        {
+            float: left;
+            margin-left: 25px;
+            margin-top: 240px;
+            margin-right: 0;
+            padding: 0;
+            width: 111px;
+        }
+        #picstrip2
+        {
+            float: left;
+            margin-left: 37px;
+            margin-top: 49px;
+            margin-right: 0;
+            padding: 0;
+            clear: right;
+            width: 182px;
+        }
+        #message
+        {
+            margin: 40px 0 0 10px;
+        }
+        td
+        {
+            vertical-align: top;
+        }
+        #snap
+        {
+            padding: 0px;
+            margin-left: 55px;
+            margin-top: 140px;
+            margin-right: 0px;
+            width: 250px;
+        }
+        #tablemsg1
+        {
+            padding:80px 0 0 0;
+            text-align:center;
+            color:#7f7f7f;
+            font-size:12px;
+        }        
+    </style>
+</head>
+<body onload="MM_preloadImages('../images/buttons/picstrip1_r2_c1_f2.jpg','../images/buttons/picstrip1_r3_c1_f2.jpg','../images/buttons/picstrip1_r4_c1_f2.jpg','../images/buttons/picstrip1_r5_c1_f2.jpg','images/buttons/badge_f2.gif','images/buttons/zoombuttons_r2_c1_f2.jpg','images/buttons/zoombuttons_r4_c1_f2.jpg');">
+    <div id="mainlayer">
+        <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    <div>
+                        <img id="head" alt="samandrita.net" class="headscrap" name="samandrita.net" src="images/samandrita.gif"
+                            title="samandrita.net ~ Right-click to clear the table!" />
+                    </div>
+                    <div id="picstrip1">
+                        <table border="0" cellpadding="0" cellspacing="0" width="140">
+                            <!-- fwtable fwsrc="Untitled" fwbase="picstrip1.jpg" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
+                            <tr>
+                                <td>
+                                    <img name="picstrip1_r1_c1" src="images/buttons/picstrip1_r1_c1.jpg" width="140"
+                                        height="17" border="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="gallery1.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('picstrip1_r2_c1','','images/buttons/picstrip1_r2_c1_f2.jpg',1);">
+                                        <img name="picstrip1_r2_c1" src="images/buttons/picstrip1_r2_c1.jpg" width="140"
+                                            title="France" height="110" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="gallery3.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('picstrip1_r3_c1','','images/buttons/picstrip1_r3_c1_f2.jpg',1);">
+                                        <img name="picstrip1_r3_c1" src="images/buttons/picstrip1_r3_c1.jpg" width="140"
+                                            title="Liquid" height="112" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="gallery2.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('picstrip1_r4_c1','','images/buttons/picstrip1_r4_c1_f2.jpg',1);">
+                                        <img name="picstrip1_r4_c1" src="images/buttons/picstrip1_r4_c1.jpg" width="140"
+                                            title="Sync" height="112" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="gallery4.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('picstrip1_r5_c1','','images/buttons/picstrip1_r5_c1_f2.jpg',1);">
+                                        <img name="picstrip1_r5_c1" src="images/buttons/picstrip1_r5_c1.jpg" width="140"
+                                            title="Edge" height="111" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="picstrip1_r6_c1" src="images/buttons/picstrip1_r6_c1.jpg" width="140"
+                                        height="32" border="0">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="badge">
+                        <a href="gallery5.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('badge','','images/buttons/badge_f2.gif',1);">
+                            <img name="badge" src="images/buttons/badge.gif" width="111" height="112" border="0"
+                                title="Ideal">
+                        </a>
+                    </div>
+                    <div id="picstrip2">
+                        <table border="0" cellpadding="0" cellspacing="0" width="184">
+                            <tr>
+                                <td>
+                                    <img name="zoombuttons_r1_c1" src="images/buttons/zoombuttons_r1_c1.jpg" width="185"
+                                        height="15" border="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="sd/moment/momentzoom.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('zoombuttons_r2_c1','','images/buttons/zoombuttons_r2_c1_f2.jpg',1);">
+                                        <img name="zoombuttons_r2_c1" src="images/buttons/zoombuttons_r2_c1.jpg" width="185"
+                                            height="159" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="zoombuttons_r3_c1" src="images/buttons/zoombuttons_r3_c1.jpg" width="185"
+                                        height="23" border="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="sd/bathousetigers/tigerszoom.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('zoombuttons_r4_c1','','images/buttons/zoombuttons_r4_c1_f2.jpg',1);">
+                                        <img name="zoombuttons_r4_c1" src="images/buttons/zoombuttons_r4_c1.jpg" width="185"
+                                            height="160" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="zoombuttons_r5_c1" src="images/buttons/zoombuttons_r5_c1.jpg" width="185"
+                                        height="19" border="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="sd/fishandchips/fishandchipszoom.html" onmouseout="MM_swapImgRestore();"
+                                        onmouseover="MM_swapImage('zoombuttons_r6_c1','','images/buttons/zoombuttons_r6_c1_f2.jpg',1);">
+                                        <img name="zoombuttons_r6_c1" src="images/buttons/zoombuttons_r6_c1.jpg" width="185"
+                                            height="63" border="0"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="zoombuttons_r7_c1" src="images/buttons/zoombuttons_r7_c1.jpg" width="185"
+                                        height="32" border="0">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div id="message">
+                        <table border="0" cellpadding="0" cellspacing="0" width="310">
+                            <tr>
+                                <td colspan="5">
+                                    <img name="message_r1_c1" src="images/buttons/message_r1_c1.gif" width="310" height="170"
+                                        title="A message from Sam" border="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">
+                                    <img name="message_r2_c1" src="images/buttons/message_r2_c1.gif" width="22" height="51"
+                                        border="0">
+                                </td>
+                                <td>
+                                    <a href="dedication.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('message_r2_c2','','images/buttons/message_r2_c2_f2.gif',1);">
+                                        <img name="message_r2_c2" src="images/buttons/message_r2_c2.gif" width="97" height="34"
+                                            border="0"></a>
+                                </td>
+                                <td rowspan="2">
+                                    <img name="message_r2_c3" src="images/buttons/message_r2_c3.gif" width="87" height="51"
+                                        border="0">
+                                </td>
+                                <td>
+                                    <a href="contact.html" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('message_r2_c4','','images/buttons/message_r2_c4_f2.gif',1);">
+                                        <img name="message_r2_c4" src="images/buttons/message_r2_c4.gif" width="71" height="34"
+                                            border="0"></a>
+                                </td>
+                                <td rowspan="2">
+                                    <img name="message_r2_c5" src="images/buttons/message_r2_c5.gif" width="33" height="51"
+                                        border="0">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img name="message_r3_c2" src="images/buttons/message_r3_c2.gif" width="97" height="17"
+                                        border="0">
+                                </td>
+                                <td>
+                                    <img name="message_r3_c4" src="images/buttons/message_r3_c4.gif" width="71" height="17"
+                                        border="0">
+                                </td>
+                            </tr>
+                        </table>
+                        <img id="snap" alt="Sam and Rita" height="251" src="images/samandritaphoto.gif" width="250"
+                            class="style1" title="Sam and Rita sky dreaming" />
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="tablemsg1">
+                    <div>Right click to clear the table</div>
+                </td> 
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
